@@ -5,10 +5,15 @@
 
 # Sage
 
-**Performance for Local AI.**
+Sage is designed around one idea: bringing performant AI to your machine and keeping it there.
 
-Sage runs language models locally on your machine. We handle the annoying stuff (model setup, storage, memory, making it actually use your hardware right) so local AI just feels fast and reliable instead of broken. Everything runs on your device, no cloud, no telemetry, nothing leaving your machine.
+It's a local inference engine we built from scratch in Rust - not another UI wrapper. The engine, the agent, and the tooling are all ours, tuned for your machine. This allows us to enforce security and data permissions instead of trusting a model's guardrails. One dependency keeps things simple and you can confidently source blame onto us if something breaks.
 
+## What's inside
+- Ecosystem not just a chatbot: Editor, integrated terminal, file viewers, IDE - the surfaces you actually build in.
+- Security: All agents and tool calls run inside a kernel-level sandbox, so it can only touch what you allow. This isn't something a prompt or agent controls, its a boundary the OS holds for you.
+- One click: We kept it simple, no docker, no servers to point at, no config files. Download the app, open it and its running.
+- Nothing leaves your computer: No telemetry, no accounts, no cloud latency, no network downtime.
 ---
 
 ## Download here!
@@ -39,18 +44,6 @@ open.
   right-click → *Properties → Allow executing as program*) and run it.
 
 ---
-
-## What you get
-
-- **Local inference, in-process.** The model runs on your own CPU/GPU. Nothing
-  leaves the machine.
-- **Hardware-aware execution.** Metal on Apple silicon; Vulkan and CPU on
-  Windows and Linux, with NVIDIA CUDA arriving automatically as a future update.
-- **A real model manager.** Browse, download, quantize, and store models without
-  hand-editing config.
-- **Stays out of your way.** Dark, quiet, keyboard-driven. No account, no
-  telemetry, no cloud.
-
 ## What's open
 
 Sage is a **proprietary application**. The high-performance inference engine
@@ -68,4 +61,4 @@ The Sage desktop application and its installers are **proprietary** — install
 and use them freely; don't redistribute, reverse-engineer, or repackage them.
 See [LICENSE](LICENSE).
 
-<sub>Built by ConiferKit. Sage is a quiet operating system for local AI.</sub>
+<sub>Built by Conifer Solutions.</sub>
