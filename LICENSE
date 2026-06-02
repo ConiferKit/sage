@@ -1,0 +1,75 @@
+Conifer — Licensing
+===================
+
+This repository contains two kinds of material under two different licenses.
+
+------------------------------------------------------------------------------
+1. Repository contents (documentation, API reference, examples) — MIT License
+------------------------------------------------------------------------------
+
+Copyright (c) 2026 Conifer / ConiferKit
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the documentation and reference files in this repository (the "Materials"),
+to deal in the Materials without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Materials, and to permit persons to whom the Materials are
+furnished to do so, subject to the following condition:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Materials.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE
+MATERIALS.
+
+The MIT license above applies ONLY to the documentation and reference materials
+in this repository. It does NOT grant any rights in the Conifer application,
+its installers, or the software they contain.
+
+------------------------------------------------------------------------------
+2. The Conifer application (binaries / installers) — Proprietary EULA
+------------------------------------------------------------------------------
+                                                       <a id="conifer-application-eula"></a>
+
+The Conifer desktop application and any installers, binaries, or compiled
+artifacts distributed via this repository's Releases (the "Software") are
+proprietary and are NOT covered by the MIT license above. The Software is
+licensed, not sold.
+
+Subject to your compliance with these terms, Conifer / ConiferKit grants you a
+personal, non-exclusive, non-transferable, revocable license to install and use
+the Software on devices you own or control, for personal or internal business
+purposes.
+
+You may NOT, in whole or in part:
+  (a) redistribute, resell, sublicense, rent, lease, or host the Software for
+      others;
+  (b) reverse-engineer, decompile, disassemble, or otherwise attempt to derive
+      the source code, model weights handling, or internal algorithms of the
+      Software, except to the extent this restriction is prohibited by
+      applicable law;
+  (c) remove or alter any proprietary notices, or repackage the Software under
+      a different name or branding;
+  (d) use the Software to develop a competing inference engine or runtime by
+      copying its internals.
+
+The Software's high-performance inference engine and agent runtime are trade
+secrets of Conifer / ConiferKit. No rights to their source code are granted.
+
+The Software may automatically download and install updates from Conifer /
+ConiferKit; those updates are covered by this same license.
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM
+EXTENT PERMITTED BY LAW, CONIFER / CONIFERKIT DISCLAIMS ALL WARRANTIES AND
+SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OR INABILITY TO USE
+THE SOFTWARE.
+
+This license terminates automatically if you breach it. On termination you must
+stop using and delete the Software.
+
+For commercial redistribution, OEM, or other licensing, contact ConiferKit.

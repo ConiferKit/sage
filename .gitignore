@@ -1,0 +1,12 @@
+# Installers are attached to GitHub Releases, never committed to the repo.
+*.dmg
+*.msi
+*.exe
+*.AppImage
+*.deb
+*.app/
+*.sig
+*.tar.gz
+*.zip
+
+.DS_Store
