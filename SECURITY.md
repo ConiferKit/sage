@@ -9,7 +9,7 @@ and how to report a problem.
 Please report privately — do **not** open a public issue.
 
 - **Preferred:** [GitHub private security advisory](https://github.com/ConiferKit/sage/security/advisories/new)
-- **Email:** security@conifer.build
+- **Email:** contact@conifer.build
 
 Include the Conifer version (Settings → About), your OS, and a reproduction.
 We'll acknowledge within a few business days and keep you posted through the fix.
